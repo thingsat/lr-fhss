@@ -1,0 +1,17 @@
+# See https://www.chirpstack.io/gateway-bridge/install/config/ for a full
+# configuration example and documentation.
+
+[integration.mqtt.auth.generic]
+servers=["tcp://mosquitto:1883"]
+username=""
+password=""
+
+
+# Integration configuration.
+[integration]
+# Payload marshaler.
+#
+# This defines how the MQTT payloads are encoded. Valid options are:
+# * protobuf:  Protobuf encoding
+# * json:      JSON encoding (easier for debugging, but less compact than 'protobuf')
+marshaler="json"
