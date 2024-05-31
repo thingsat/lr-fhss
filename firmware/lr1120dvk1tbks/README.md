@@ -1,4 +1,4 @@
-# Firmware for (LR1120DVK1TBKS](https://www.semtech.com/products/wireless-rf/lora-edge/lr1120dvk1tbks)
+# Firmware for [LR1120DVK1TBKS](https://www.semtech.com/products/wireless-rf/lora-edge/lr1120dvk1tbks)
 
 ## Setup
 Install make, gcc ...
