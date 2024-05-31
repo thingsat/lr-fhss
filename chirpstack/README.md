@@ -5,3 +5,12 @@
 3. Install, configure and run the LNS
 4. Register the LR-FHSS gateways
 5. Register the LR-FHSS endpoints
+
+
+
+## Todolist
+* [ ] add TLS for console and [MQTT](https://www.chirpstack.io/docs/guides/mosquitto-tls-configuration.html)
+* [ ] add GCP
+* [ ] add AWS
+* [ ] add OVH
+
