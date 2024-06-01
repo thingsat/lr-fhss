@@ -3,7 +3,7 @@
 TODO
 
 ## Format
-Fields are encoded in little endian.
+Fields are encoded in big endian.
 
 > Note: The length of the payload varies depending on the experiment being conducted
 
