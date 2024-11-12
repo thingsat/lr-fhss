@@ -47,7 +47,8 @@ function Decode(fPort, bytes, variables) {
             // TODO App Clock Sync (managed at LNS level)
             break;
         }
-        default: {
+        case 100: {
+            // TODO Full Field Test Device
             var size = bytes.length;
             o.size = size;
 
@@ -99,6 +100,13 @@ function Decode(fPort, bytes, variables) {
             idx += 1;
             o.dn_snr = readInt8(bytes, idx) / 5.0;
             idx += 1;
+        }
+        default: {
+            var size = bytes.length;
+            o.size = size;  
+            if(size > 1) {
+              o.txpower = readUInt8 (bytes, 0);
+            }
         }
     }
     return o;
